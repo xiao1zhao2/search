@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 
 		/**
-		 * expand : city=bj&cate=1|2&age=20_35&hasPhoto=1&sort=age_desc,hasPhoto_asc&page=1&size=50
+		 * expect : city=bj&cate=1|2&age=20_35&hasPhoto=1&sort=age_desc,hasPhoto_asc&page=1&size=50
 		 */
 		SearchRequest request = new SearchRequestBuilder()
 				.and(SearchFields.CITY.equal("bj"))
